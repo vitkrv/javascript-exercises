@@ -1,0 +1,48 @@
+{
+  "name": "javascript-exercises",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "",
+  "author": {
+    "name": "Vitaliy Kravchenko",
+    "email": "vitkrv@gmail.com",
+    "url": ""
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    ""
+  ],
+  "devDependencies": {
+    "eslint": "^4.1.0",
+    "eslint-config-xo-space": "^0.16.0",
+    "jest": "^20.0.4",
+    "jest-cli": "^20.0.0",
+    "lodash": "^4.17.4",
+    "nsp": "^2.6.3"
+  },
+  "scripts": {
+    "prepublish": "nsp check",
+    "pretest": "eslint . --fix",
+    "test": "jest",
+    "test-watch": "jest --watchAll"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "jest": true,
+      "node": true
+    },
+    "rules": {
+      "no-unused-expressions": 0,
+      "no-mixed-operators": 0,
+      "capitalized-comments": 0
+    }
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}
