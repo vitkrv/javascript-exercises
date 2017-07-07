@@ -37,7 +37,8 @@
     "rules": {
       "no-unused-expressions": 0,
       "no-mixed-operators": 0,
-      "capitalized-comments": 0
+      "capitalized-comments": 0,
+      "no-unused-vars": 0
     }
   },
   "jest": {
